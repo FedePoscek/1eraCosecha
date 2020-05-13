@@ -2,7 +2,8 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bodega Septima, landing page promo, vinos de primera cosecha">
     <title>1era Cosecha - Bodega Septima</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -76,20 +77,20 @@
                   <div class="c3 estilo-c3"><a href="tel:080045829871">0800-4582-9871</a></div>
                   <div class="c4 estilo-c4"><a href="mailto:septimaturismo@codorniu.com">septimaturismo@codorniu.com</a></div>
                   
-                  <form class="c5" id="form" method="POST" action="/api/cosecha">
-                    <input class="estilo-c5 rec" name="nombre" id="nombre" type="text" placeholder="Tu nombre:">
-                    <input class="estilo-c5 rec" name="mail" id="mail" type="email" placeholder="Tu mail:" required>
-                    <input class="estilo-c5 rec" name="telefono" id="telefono" type="number" placeholder="Tu teléfono:" required>
-                    <textarea class="estilo-c5 rec-textarea" name="comentarios" rows="1" cols="1" placeholder="Tu consulta:"></textarea>
-                    <input class="boton-envio" id="submit" type="submit" value="ENVIAR"><span><hr></span>
+                  <form class="c5" id="formulario" method="POST" action="/api/cosecha">
+                    <input class="estilo-c5 rec" name="nombre" id="nombre" type="text" placeholder="Tu nombre:" aria-label="Tu nombre">
+                    <input class="estilo-c5 rec" name="mail" id="mail" type="email" placeholder="Tu mail:" aria-label="Tu mail" required>
+                    <input class="estilo-c5 rec" name="telefono" id="telefono" type="number" placeholder="Tu teléfono:" aria-label="Tu teléfono" required>
+                    <textarea class="estilo-c5 rec-textarea" name="comentarios" rows="1" cols="1" placeholder="Tu consulta:" aria-label="Tu consulta"></textarea>
+                    <input class="boton-envio" id="submit" type="submit" value="ENVIAR" aria-label="Enviar"><span><hr></span>
                   </form>
                 
                   <div class="c6 estilo-c1">SUSCRIPCIÓN:</div>
                   <div class="c7 estilo-c11">Suscribite a nuestro newsletter y recibí todas las novedades de la bodega.</div>
                   <div class="c8">    
                        <form id="form" action="#" method="POST">
-                          <input class="estilo-c5 rec" name="mail" id="mail" type="email" placeholder="Tu mail:" required>
-                          <input class="c13 boton-envio" id="submit" type="submit" value="ENVIAR"><span><hr></span>
+                          <input class="estilo-c5 rec" name="mail" id="mail" type="email" placeholder="Tu mail:" aria-label="Tu mail" required>
+                          <input class="c13 boton-envio" id="submit" type="submit" value="ENVIAR" aria-label="Enviar"><span><hr></span>
                       </form>
                   </div>
                   <div class="contacto-pie">
